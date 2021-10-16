@@ -1,0 +1,9 @@
+
+{
+  "log" :{
+    "folder" : "./logs",
+    "filename" : "",
+    "maxAge": 7,
+    "rotationTime": 1
+}
+}
