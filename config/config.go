@@ -8,7 +8,7 @@ import (
 
 type Config struct {
 	Log LogConfig `json:"log"`
-
+	Mysql MysqlConfig `json:"mysql"`
 }
 
 type LogConfig struct {
@@ -16,6 +16,14 @@ type LogConfig struct {
 	FileName     string `json:"filename"`
 	MaxAge       int    `json:"maxAge"`
 	RotationTime int    `json:"rotationTime"`
+}
+
+type MysqlConfig struct {
+	Username string `json:"username"`
+	Password string `json:"password"`
+	Addr     string `json:"addr"`
+	DbName   string `json:"dbname"`
+	Option   string `json:"option"`
 }
 
 

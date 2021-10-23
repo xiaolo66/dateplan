@@ -1,0 +1,4 @@
+time="2021-10-23T12:57:29+08:00" level=error msg="open DB failed,err:%!(EXTRA *mysql.MySQLError=Error 1049: Unknown database 'bubbles')"
+time="2021-10-23T12:57:57+08:00" level=error msg="response:&errors.errorString{s:\"sql: database is closed\"}"
+time="2021-10-23T12:58:10+08:00" level=error msg="response:&errors.errorString{s:\"sql: database is closed\"}"
+time="2021-10-23T12:58:10+08:00" level=error msg="response:&errors.errorString{s:\"sql: database is closed\"}"

@@ -5,5 +5,12 @@
     "filename" : "",
     "maxAge": 7,
     "rotationTime": 1
-}
+},
+  "mysql": {
+    "username" : "root",
+    "password" : "Monika8899174!",
+    "addr" : "127.0.0.1:3306",
+    "dbname" : "Bubble",
+    "option" : "charset=utf8\u0026parseTime=True\u0026loc=Local"
+  }
 }

@@ -18,7 +18,7 @@ func main() {
 		fmt.Println("log init fail")
 		return
 	}
-	model.InitDB()
+	model.InitDB(*cfg)
 	servers.InitServer()
 	r:=gin.Default()
 	controlls.RegisterRouter(r)
